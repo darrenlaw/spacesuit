@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'early_gameboyregular';
+    src: url('../fonts/early_gameboy-webfont.eot');
+    src: url('../fonts/early_gameboy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/early_gameboy-webfont.woff2') format('woff2'),
+         url('../fonts/early_gameboy-webfont.woff') format('woff'),
+         url('../fonts/early_gameboy-webfont.ttf') format('truetype'),
+         url('../fonts/early_gameboy-webfont.svg#early_gameboyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;   
+}
+
+@font-face {
+    font-family: 'swallow_fallsregular';
+    src: url('../fonts/swallow_falls-webfont.eot');
+    src: url('../fonts/swallow_falls-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swallow_falls-webfont.woff2') format('woff2'),
+         url('../fonts/swallow_falls-webfont.woff') format('woff'),
+         url('../fonts/swallow_falls-webfont.ttf') format('truetype'),
+         url('../fonts/swallow_falls-webfont.svg#swallow_fallsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color:#121630;
+	width:1280px;
+	margin:auto;
+	}
+container {
+	position:relative;
+	}
+h1 {
+    font-family: 'early_gameboyregular';
+	color:white;
+	font-size:80px;
+	position:abosolute;
+	text-align:center;
+	}
+p {
+	position:absolute;
+	color:white;
+	font-size:40px;
+	font-family: 'swallow_fallsregular';
+	background-color: rgba(104,127,165,0.7);
+	border-radius:15px;
+	width:800px;
+	margin-top:550px;
+	margin-bottom:60px;
+	margin-left:225px;
+	padding:10px;
+	}
+a:link {
+	color:#929078;
+	font-family: 'early_gameboyregular';
+	text-decoration:none;
+	font-size:25px;
+	}
+a:visited {
+	color:#929078;
+	}
+a:hover {
+	color:#b3d6db
+	}
+#carl {
+	position:absolute;
+	height:200px;
+	width:200px;
+	margin-top:550px;
+	margin-left:25px;
+	}
+#system {
+	width:500px;
+	height:500px;
+	position:absolute;
+	margin-left:0;
+	margin-top:50px;
+	}
+#layers {
+	position:absolute;
+	width:550px;
+	height:550px;
+	margin-left:350px;
+	margin-top:30px;
+	}
+#next {
+	position:absolute;
+	width:200px;
+	height:200px;
+	margin-left:1060px;
+	margin-top:550px;
+	}
+#back {
+	position:absolute;
+	width:200px;
+	height:200px;
+	margin-left:1050px;
+	margin-top:780px;
+	}
+#nav {
+	position:absolute;
+	width:1280px;
+	text-align:center;
+	}	
+.funfact {
+	position:absolute;
+	margin-top:800px;
+	}
+#tubes {
+	position:absolute;
+	width:500px;
+	height:500px;
+	margin-left:780px;
+	margin-top:40px;
+	margin-bottom:150px;
+	}
+	
+@media screen and (max-width: 768px) {
+body {
+	width:768px;
+	}
+#nav {
+	margin-left:100px;
+	font-size:20px;
+	width:600px;
+	}
+h1 {
+	font-size:50px;
+	text-align:center;
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#carl {
+	width:120px;
+	height:120px;
+	margin-left:20px;
+	margin-top:385px;
+	}
+#next {
+	width:120px;
+	height:120px;
+	margin-left:620px;
+	margin-top:385px;
+	}
+#back {
+	width:120px;
+	height:120px;
+	margin-left:620px;
+	margin-top:575px;
+	}
+p {
+	font-size:30px;
+	width:460px;
+	padding:10px;
+	margin-left:140px;
+	margin-top:350px;
+	}
+#system {
+	width:300px;
+	height:300px;
+	margin-left:30px;
+	margin-top:40px;
+	}
+#tubes {
+	width:300px;
+	height:300px;
+	margin-left:430px;
+	margin-top:40px;
+	margin-bottom:150px;
+	}
+#layers {
+	position:absolute;
+	width:300px;
+	height:300px;
+	margin-left:230px;
+	margin-top:50px;
+	}
+.funfact {
+	margin-top:560px;
+	}
+
+@media screen and (max-width: 480px) {
+body {
+	width:460px;
+	}
+#nav {
+	width:460px;
+	margin-left:0px;
+	font-size:16px;
+	}
+h1 {
+	font-size:50px;
+	text-align:center;
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#carl {
+	width:100px;
+	height:100px;
+	margin-left:357px;
+	margin-top:415px;
+	}
+#next {
+	width:100px;
+	height:100px;
+	margin-left:357px;
+	margin-top:550px;
+	}
+#back {
+	width:100px;
+	height:100px;
+	margin-left:357px;
+	margin-top:1080px;
+	}
+p {
+	font-size:30px;
+	width:325px;
+	padding:10px;
+	margin-left:10px;
+	margin-top:410px;
+	}
+#layers {
+	width:400px;
+	height:400px;
+	margin-left:30px;
+	margin-top:20px;
+	}
+#system {
+	width:400px;
+	height:400px;
+	margin-left:30px;
+	margin-top:20px;
+	}
+#tubes {
+	width:400px;
+	height:400px;
+	margin-left:30px;
+	margin-top:660px;
+	margin-bottom:10px;
+	}
+.funfact {
+	margin-top:1080px;
+	}
